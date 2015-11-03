@@ -3,7 +3,7 @@
 This small repository is a collection of code joined into a simple composer.json for easier installation.
 
 ```
-$ git clone git@github.com:tomasnorre/PHPCompabilityCheck.git
+$ git clone https://github.com/tomasnorre/PHPCompabilityCheck.git
 $ cd PHPCompabilityCheck
 $ composer update
 $ composer install
