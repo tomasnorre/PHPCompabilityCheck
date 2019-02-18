@@ -10,7 +10,7 @@ $ composer install
 # Include your new bin-dir to your $PATH
 $ export PATH=~/.composer/vendor/bin:$PATH
 # Verify that "PhpCompatibility" is installed and phpcs is available:
-$ phpci -i
+$ phpcs -i
 # Run the tests:
 $ phpcs --standard=PHPCompatibility --runtime-set testVersion 5.3 /path/to/your/code/
 $ phpcs --standard=PHPCompatibility --runtime-set testVersion 5.6 /path/to/your/code/
